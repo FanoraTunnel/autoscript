@@ -785,9 +785,9 @@ print_success "All Packet"
 function menu(){
 clear
 print_install "Memasang Menu Packet"
-wget ${REPO}Cdy/menu.zip
-wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Jabarputra/script/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-7z x -pBumiAyuVpn12BAV menu.zip
+wget https://raw.githubusercontent.com/FanoraTunnel/autoscript/main/Cdy/menu.zip
+wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/FanoraTunnel/autoscript/main/Enc/encrypt" ; chmod +x /usr/bin/enc
+7z x -pFanoraTunnel menu.zip
 chmod +x menu/*
 enc menu/*
 mv menu/* /usr/local/sbin
